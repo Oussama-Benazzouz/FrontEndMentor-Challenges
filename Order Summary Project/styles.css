@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background: url(./images/pattern-background-desktop.svg) no-repeat  fixed;
+    background-size: contain ;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.container{
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.wrapper{
+    background-color: white;
+    margin: 1rem;
+    border-radius: 17px;
+    margin: 1rem;
+    text-align: center;
+}
+
+.wrapper .hero-img img{
+    width: 100%;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+
+.info{
+    margin: 25px 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text h2{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 26px;
+    padding-bottom: 7px;
+}
+
+.text p{
+    padding: 7px 10px;
+    line-height: 1.6;
+}
+
+.plan{
+    background-color: hsl(225, 100%, 98%);
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+}
+
+.subtext{
+    padding-left: 15px;
+}
+
+span{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.plan a{
+    color: hsl(245, 75%, 52%);
+}
+
+
+.payment{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.payment a{
+    padding-top: 25px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+.payment button{
+    padding: 15px;
+    font-weight: 900;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.payment button .link{
+    color: white;
+}
+
+
+
+
+
+
+
